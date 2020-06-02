@@ -1,0 +1,65 @@
+
+#logo{
+  width: 466px;
+  height: 360px;
+  display: block;
+  margin: auto;
+}
+
+#githubLink{
+  color: #303030;
+  transition: color 0.25s;
+}
+
+#githubLink:active{
+  color: #636363;
+}
+
+#githubLink i{
+  font-size: 45px;
+}
+
+.message{
+  text-align: center;
+}
+
+.message ol{
+  display: inline-block;
+  padding: 0px;
+  margin: auto;
+  list-style-position: inside;
+  font-size: 24px;
+}
+
+.message ol li{
+  text-align: left;
+}
+
+body{
+  margin-top: 50px;
+}
+
+h1{
+  font-size: 34px;
+}
+
+h2{
+  font-size: 26px;
+}
+
+h3{
+  font-size: 22px;
+}
+
+hr{
+  width: 400px;
+  border: 1px solid #bfbfbf;
+}
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+*:not(strong){
+  font-weight: normal;
+}
